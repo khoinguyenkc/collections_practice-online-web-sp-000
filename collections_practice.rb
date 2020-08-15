@@ -61,3 +61,12 @@ def reverse_array(array)
       0-8, 1-7, 2-6, 3-5, 4
       so do the first length-1 / 2.
         with this formula put it in a loop
+  if array.length.even?
+    lastloop = array.length/2 - 1
+    i = 0
+    while i <= lastloop
+      array[i] = array[array.length-1-i]
+      i += 1
+    end
+    return array
+  else
