@@ -78,4 +78,6 @@ print reverse_array([1,2,3,4])
 def kesha_maker(array)
   newarray = []
   array.each do |string|
-    string.split("")
+    arrayofchars = string.split("")
+    arrayofchars[2] = "$"
+    arrayofchars.join("")
