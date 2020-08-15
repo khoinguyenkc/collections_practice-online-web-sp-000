@@ -99,7 +99,14 @@ end
 print find_a(["aha", "baha", "alas"])
 
 def sum_array(array)
-  array.inject { |sum, n| sum + n }
+  #array.inject { |sum, n| sum + n }
+  sumsofar = 0
+  array.each do |item|
+    sumsofar += item
+  end
+  sumsofar
 end
 
-puts sum_array([2,4,6])       
+puts sum_array([2,4,6])  
+
+     
