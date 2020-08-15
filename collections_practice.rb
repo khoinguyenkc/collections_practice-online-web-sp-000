@@ -62,6 +62,7 @@ def reverse_array(array)
 
   else #aka out-dated
     lastloop = (array.length-1) / 2
+    i = 0
     while i <= lastloop
       array[i] = array[array.length-1-i]
       i += 1
