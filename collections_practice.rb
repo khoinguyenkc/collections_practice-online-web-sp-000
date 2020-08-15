@@ -81,3 +81,8 @@ def kesha_maker(array)
     arrayofchars = string.split("")
     arrayofchars[2] = "$"
     newarray << arrayofchars.join
+  end
+  return newarray
+end
+
+print kesha_maker(["its", "going", "down", "yelling", "timber"])
