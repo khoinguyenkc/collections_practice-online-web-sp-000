@@ -117,3 +117,13 @@ def add_s(array)
 end
 
 print add_s(["aha", "baha", "alas"])
+
+def swap23(array)
+    newarray = [ array[2], array[1]]
+
+    array[1] = newarray[0]
+    binding.pry
+    array[2] = newarray[1]
+    return array
+end
+
