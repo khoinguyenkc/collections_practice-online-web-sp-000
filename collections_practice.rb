@@ -107,6 +107,4 @@ def sum_array(array)
   sumsofar
 end
 
-puts sum_array([2,4,6])  
-
-     
+puts sum_array([2,4,6])
