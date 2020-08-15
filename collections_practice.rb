@@ -116,4 +116,4 @@ def add_s(array)
   array
 end
 
-print add_s("aha", "baha", "alas"])
+print add_s([]"aha", "baha", "alas"])
