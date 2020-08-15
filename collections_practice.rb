@@ -126,4 +126,3 @@ def swap23(array)
     array[2] = newarray[1]
     return array
 end
-
