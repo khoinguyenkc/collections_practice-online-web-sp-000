@@ -55,7 +55,7 @@ def reverse_array(array)
     lastloop = array.length/2 - 1
     i = 0
     while i <= lastloop
-      array = swap_elements_from_to(array, array[i], array[array.length-1-i]) =
+      array = swap_elements_from_to(array, i, array.length-1-i) =
       i += 1
     end
     return array
