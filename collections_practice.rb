@@ -112,3 +112,6 @@ puts sum_array([2,4,6])
 def add_s(array)
   array.each_with_index do | string, index |
     array[index] = "#{string}s" if index != 1
+  end
+  array
+end
