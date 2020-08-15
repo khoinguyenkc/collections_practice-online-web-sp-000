@@ -80,4 +80,4 @@ def kesha_maker(array)
   array.each do |string|
     arrayofchars = string.split("")
     arrayofchars[2] = "$"
-    arrayofchars.join("")
+    newarray << arrayofchars.join
