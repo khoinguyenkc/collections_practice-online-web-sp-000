@@ -50,17 +50,7 @@ def swap_elements_from_to(array, index, destination_index)
 end
 
 def reverse_array(array)
-  length = 8
-  array0 = array.length-1-0 7
-  array1 = array.lenght-1-1 6
-  array2 = array.length-1-2 5
-  array3 = length-1-3 4
-  stop here. do the first half if length is even
-    index last piece for even number = lenght/2 - 1.
-    if lenght = 9
-      0-8, 1-7, 2-6, 3-5, 4
-      so do the first length-1 / 2.
-        with this formula put it in a loop
+
   if array.length.even?
     lastloop = array.length/2 - 1
     i = 0
@@ -69,4 +59,17 @@ def reverse_array(array)
       i += 1
     end
     return array
-  else
+
+  else #aka out-dated
+    lastloop = (array.length-1) / 2
+    while i <= lastloop
+      array[i] = array[array.length-1-i]
+      i += 1
+    end
+    return array
+  end
+
+end
+
+print reverse_array[1,4,3]
+print reverse_array[1,2,3,4]
