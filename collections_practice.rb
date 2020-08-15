@@ -124,8 +124,8 @@ def swap23(array)
     array[2] = newarray[1]
     #interesting: the above work, but the below doesnt
     #i expected both ways to not work
-    array[1] = array[2]
-    array[2] = array [1]
+    #array[1] = array[2]
+    #array[2] = array [1]
     return array
 end
 puts swap23([5,8,15,2,1])
