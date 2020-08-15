@@ -71,5 +71,5 @@ def reverse_array(array)
 
 end
 
-print reverse_array[1,4,3]
-print reverse_array[1,2,3,4]
+print reverse_array([1,4,3])
+print reverse_array([1,2,3,4])
