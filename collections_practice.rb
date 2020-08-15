@@ -86,3 +86,15 @@ def kesha_maker(array)
 end
 
 print kesha_maker(["its", "going", "down", "yelling", "timber"])
+
+
+def find_a(array)
+  arrayofas = array.select do |string|
+    #if this block returns true, the "string" will be added to the return array 
+    arrayofchars = string.split("")
+    arrayofchars[0] == "a" ? true : false
+  end
+  arrayofas 
+end
+print find_a(["aha", "baha", "alas"])
+  
