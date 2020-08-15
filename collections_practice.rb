@@ -126,4 +126,4 @@ def swap23(array)
     array[2] = newarray[1]
     return array
 end
-swap23([5,4,3,2,1])
+put swap23([5,4,3,2,1])
