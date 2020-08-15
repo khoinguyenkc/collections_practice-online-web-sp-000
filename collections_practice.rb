@@ -36,7 +36,7 @@ end
 puts sort_array_char_count(["i", "love", "you"])
 
 def swap_elements(array)
-  array[1], array[2] = array[2], array[1]
+  array[2], array[1] = array[1], array[2]
   array
 end
 
@@ -126,3 +126,4 @@ def swap23(array)
     array[2] = newarray[1]
     return array
 end
+swap23([4,3,])
