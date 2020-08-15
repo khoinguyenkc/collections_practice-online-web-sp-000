@@ -101,4 +101,5 @@ print find_a(["aha", "baha", "alas"])
 def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
-         
+
+sum_array([2,4,6])       
