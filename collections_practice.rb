@@ -122,8 +122,7 @@ def swap23(array)
     newarray = [ array[2], array[1]]
 
     array[1] = newarray[0]
-    binding.pry
     array[2] = newarray[1]
     return array
 end
-put swap23([5,4,3,2,1])
+puts swap23([5,4,3,2,1])
