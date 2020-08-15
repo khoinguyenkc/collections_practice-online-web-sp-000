@@ -102,4 +102,4 @@ def sum_array(array)
   array.inject { |sum, n| sum + n }
 end
 
-sum_array([2,4,6])       
+puts sum_array([2,4,6])       
