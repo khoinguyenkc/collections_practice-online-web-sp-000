@@ -115,3 +115,5 @@ def add_s(array)
   end
   array
 end
+
+print add_s("aha", "baha", "alas"])
