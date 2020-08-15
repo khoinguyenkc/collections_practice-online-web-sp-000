@@ -97,3 +97,8 @@ def find_a(array)
   arrayofas
 end
 print find_a(["aha", "baha", "alas"])
+
+def sum_array(array)
+  array.inject { |sum, n| sum + n }
+end
+         
